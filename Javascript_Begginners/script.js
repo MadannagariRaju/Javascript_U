@@ -209,6 +209,13 @@ let favouriteFruits =["apples", "Kiwi", "oranges","graphes"];
 //         btech: 8.8
 //     }
 // }
+
+// console.log(person)
+// person.surname = "Madannagari"
+// console.log(person)
+
+// delete person.name
+// console.log(person)
 // console.log(person.name)
 // console.log(person['name'])
 
