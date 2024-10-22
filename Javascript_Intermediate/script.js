@@ -183,22 +183,38 @@ let fruits =["Apple","kiwi","oranges","banana"]
 
 //      Break and Continue
 
-let arrdemo = [0,1,2,3,4,5,6,7,8,9,10]
+// let arrdemo = [0,1,2,3,4,5,6,7,8,9,10]
 
-console.log("break")
-for(let ele of arrdemo) {
-    if(ele%2 == 0){
-        console.log(ele)
-    }else{
-        break;
-    }
-}
+// console.log("break")
+// for(let ele of arrdemo) {
+//     if(ele%2 == 0){
+//         console.log(ele)
+//     }else{
+//         break;
+//     }
+// }
 
-console.log("continue")
-for(let ele of arrdemo) {
-    if(ele%2 == 0){
-        console.log(ele)
-    }else{
-        continue;
-    }
-}
+// console.log("continue")
+// for(let ele of arrdemo) {
+//     if(ele%2 == 0){
+//         console.log(ele)
+//     }else{
+//         continue;
+//     }
+// }
+
+
+//      Math
+
+let n =25.50
+let arr = [10,2,0,32,54]
+console.log(Math.floor(n))
+console.log(Math.ceil(n))
+console.log(Math.round(n)) // after decimal from 50 it ups and below 50 it down the number
+console.log(Math.random())  // random gives <1 number
+
+console.log(Math.max(1,2,3,4,5,6))
+console.log(Math.min(1,2,3,4,5,6))
+
+let food = ["biryani","chicken","mutton","vegies"]
+console.log(food[Math.floor(Math.random() * food.length)])
