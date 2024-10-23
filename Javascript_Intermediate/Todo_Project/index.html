@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO Project</title>
+    <style>
+        .li-task{
+            /* background-color: red; */
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .completed {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <h1>TO-DO List</h1>
+    <h2 id="date">Today date</h2>
+    <form onsubmit="save(event)">
+        <input id="text" type="text" placeholder="enter to-do">
+        <button type="submit">save</button>
+    </form>
+    <ul id="list">
+
+    </ul>
+    <h1 id="taskcount">Task Count : </h1>
+    <script src="script.js"></script>
+</body>
+</html>
