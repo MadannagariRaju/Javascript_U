@@ -1,3 +1,5 @@
+// for weather api visit -> https://home.openweathermap.org/api_keys
+
 let apiKey = "dc22a21bc7b5eef2d7a3419b7a1ac153"
 
 async function save(event) {
